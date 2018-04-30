@@ -1,3 +1,7 @@
+html{
+    overflow-y: scroll; 
+}
+
 body{
     color: #777777;
     background: lightgray;
@@ -57,7 +61,7 @@ a {
 }
 a:hover {
     color:black;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 hr {
@@ -83,7 +87,7 @@ hr {
 }
 
 #index {
-    /* width: 930px; */
+    width: 930px;
     margin-top: 25px;
     border: #777777 solid 1px;
     background: #ffffff;
