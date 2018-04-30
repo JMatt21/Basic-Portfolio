@@ -2,7 +2,6 @@ body{
     color: #777777;
     background: lightgray;
     margin: 0;
-    /* width: 120%; */
 }
 
 h1, h2{
@@ -62,6 +61,7 @@ hr {
     /* text-align: right; */
     line-height: 80px;
     font-size: 18px;
+    width: 80%;
 }
 
 #header{
@@ -69,15 +69,18 @@ hr {
     border-bottom: #777777 solid 2px;
     width: 100%;
     height: 80px;
+    overflow: inherit;
+    
 }
 
 #index {
-    width: 960px;
+    /* width: 930px; */
     margin-top: 25px;
     border: #777777 solid 1px;
     background: #ffffff;
     padding: 15px;
     /* height: 350px; */
+    /* overflow: hidden; */
 }
 
 #footer {
@@ -85,6 +88,7 @@ hr {
     text-align: center;
     width: 100%;
     padding-top: 50px;
+    padding-bottom: 50px;
     background: #666666;
     color: white;
     border-top: solid #4aaaa5 10px;
