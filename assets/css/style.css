@@ -17,7 +17,7 @@ h1, #links, #index{
 }
 h1 {
     background: #4aaaa5;
-    margin-right: 23%;
+    margin-right: 8%;
     float: left;
     padding:  20px 25px 24px;
     color:white;
@@ -36,6 +36,9 @@ h4 {
 }
 input {
     margin: 5px 0 5px 15px;
+}
+textarea{
+    margin-left: 15px;
 }
 img {
     float: left;
@@ -87,7 +90,7 @@ hr {
 }
 
 #index {
-    width: 930px;
+    /* width: 930px; */
     margin-top: 25px;
     border: #777777 solid 1px;
     background: #ffffff;
