@@ -1,9 +1,21 @@
+body{
+    margin: 0;
+}
+h1 {
+    float: left;
+    margin: 0 5% 2%;
+    background: lightblue;
+    padding: 25px;
+    width: 17%;
+    font-size: auto;
+}
 
-
-
-
+#links {
+    float: left;
+}
 
 #header {
-    width: 100%;
     background: gray;
+    padding: 25px;
+    border-bottom: black 1px solid;
 }

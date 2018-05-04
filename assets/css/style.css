@@ -2,22 +2,22 @@ html{
     overflow-y: scroll; 
 }
 
-body{
+body {
     color: #777777;
     background: lightgray;
     margin: 0;
 }
 
+
 h1, h2, h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1, #links, #index{
-    margin: 0 20%;
-}
+
 h1 {
+    position: relative;
+    top: -103px;
     background: #4aaaa5;
-    margin-right: 8%;
     float: left;
     padding:  20px 25px 24px;
     color:white;
@@ -25,7 +25,10 @@ h1 {
 
 }
 h2{
-    margin-left: 15px;
+    min-width: 250px;
+    width: 20%;
+    line-height: 0px;
+    margin: 0 0 0 15px;
     font-size: 30px;
     color: #4aaaa5;
 }
@@ -34,6 +37,8 @@ h4 {
     margin-bottom: 0;
     color: black;
 }
+
+
 input {
     margin: 5px 0 5px 15px;
 }
@@ -47,15 +52,23 @@ img {
     margin: 9px 15px 0;
 }
 
-
-p{
+container{
+    min-width: 960px;
+    margin: 0 20%;
+    float: left;
+    overflow: visible;
+}
+p, li{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 50px 15px 15px;
     font-size: 20px;
     line-height: 30px;
     
 }
-
+li {
+    line-height: 25px;
+    margin: 0 0 0 15px;
+ }
 a {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -64,8 +77,9 @@ a {
 }
 a:hover {
     color:black;
-    /* font-weight: bold; */
 }
+
+
 
 hr {
     margin: 20px 15px;
@@ -73,31 +87,32 @@ hr {
     border-radius: 50px;
 }
 #links {
+    position: relative;
+    bottom: 80px;
+    /* min-width:250px; */
     float: left;
-    margin: 0;
-    /* text-align: right; */
+    margin: 0 0 0 39.36%;
+    padding: 0;
     line-height: 80px;
     font-size: 18px;
-    /* width: 80%; */
+
 }
 
 #header{
+    min-width: 1171px;
+    position: relative;
+    /* right: 40%; */
+    width: 100%;
     background: #ffffff;
     border-bottom: #777777 solid 2px;
-    width: 100%;
     height: 80px;
-    overflow: inherit;
-    
 }
 
 #index {
-    /* width: 930px; */
     margin-top: 25px;
     border: #777777 solid 1px;
     background: #ffffff;
     padding: 15px;
-    /* height: 350px; */
-    /* overflow: hidden; */
 }
 
 #footer {
@@ -119,23 +134,24 @@ hr {
     width: 200px;
     border: 3px solid white;
     border-radius: 5px;
-    /* background: blue; */
-}
-.PortImg:active{
-    border-color: gold;
+    
 }
 
-.PortImg:hover {
-    border: #777777 3px solid;
-}
 .PortTxt {
     width: 100%;
     float: left;
     background: #4aaaa5;
     color: #ffffff;
     padding: 25px 0;
-    margin-top: 90px;
+    margin-top: 110px;
     text-align: center;
+    transition: inherit;
+    -webkit-transition: background .5s;
+}
+
+.PortTxt:hover{
+    color: #ffffff;
+    background: #4a64aa;
 }
 
 .clearfix::after {
