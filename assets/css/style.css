@@ -8,11 +8,9 @@ body {
     margin: 0;
 }
 
-
 h1, h2, h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 h1 {
     position: relative;
@@ -22,8 +20,8 @@ h1 {
     padding:  20px 25px 24px;
     color:white;
     border-bottom: #777777 solid 1px;
-
 }
+
 h2{
     min-width: 250px;
     width: 20%;
@@ -32,19 +30,21 @@ h2{
     font-size: 30px;
     color: #4aaaa5;
 }
+
 h4 {
     margin-left: 15px;
     margin-bottom: 0;
     color: black;
 }
 
-
 input {
     margin: 5px 0 5px 15px;
 }
+
 textarea{
     margin-left: 15px;
 }
+
 img {
     float: left;
     width: 200px; 
@@ -58,6 +58,7 @@ container{
     float: left;
     overflow: visible;
 }
+
 p, li{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 50px 15px 15px;
@@ -65,43 +66,42 @@ p, li{
     line-height: 30px;
     
 }
+
 li {
-    line-height: 25px;
+    line-height: 25 px;
     margin: 0 0 0 15px;
- }
+}
+
 a {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     text-decoration: none;
     font-weight: normal;
 }
+
 a:hover {
     color:black;
 }
-
-
 
 hr {
     margin: 20px 15px;
     border: 2px #77777750 solid;
     border-radius: 50px;
 }
+
 #links {
     position: relative;
     bottom: 80px;
-    /* min-width:250px; */
     float: left;
     margin: 0 0 0 39.36%;
     padding: 0;
     line-height: 80px;
     font-size: 18px;
-
 }
 
-#header{
+#header {
     min-width: 1171px;
     position: relative;
-    /* right: 40%; */
     width: 100%;
     background: #ffffff;
     border-bottom: #777777 solid 2px;
@@ -116,12 +116,11 @@ hr {
 }
 
 #footer {
-    /* margin-top: 80px; */
     bottom: 0;
     position: fixed;
     text-align: center;
     width: 100%;
-    padding: 20px 0;
+    padding: 15px 0;
     background: #666666;
     color: white;
     border-top: solid #4aaaa5 10px;
